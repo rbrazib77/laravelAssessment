@@ -69,9 +69,9 @@ The system automatically shows a **Low Stock Product List** when product quantit
 
 | Product Name | Stock Quantity | Status |
 |--------------|----------------|--------|
-| Mouse        | 3              | Low Stock |
-| Keyboard     | 2              | Low Stock |
-| Monitor      | 1              | Low Stock |
+| Mouse | 3 | Low Stock |
+| Keyboard | 2 | Low Stock |
+| Monitor | 1 | Low Stock |
 
 # Category Module
 
