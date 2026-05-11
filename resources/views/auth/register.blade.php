@@ -33,7 +33,7 @@
                                 <div class="mb-4 p-0 text-center">
                                     <h3
                                         style="font-weight: 800; color:#537aef ;text-align: center; text-transform: uppercase; margin-top: 20px;">
-                                        Inventory & Sales Management System
+                                       Mini Inventory & Sales Management System
                                     </h3>
                                 </div>
 
