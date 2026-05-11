@@ -23,6 +23,10 @@ class CustomerController extends Controller
 
     }
 
+     public function create(){
+      return view('admin.customers.create');
+    }
+
     public function store(Request $request){
         $request->validate([
             'name'    => 'required',
