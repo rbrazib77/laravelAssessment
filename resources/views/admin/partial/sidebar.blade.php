@@ -4,7 +4,7 @@
          <!--- Sidemenu -->
          <div id="sidebar-menu">
              <div class="logo-box">
-                 <a href="{{route('admin.dashboard')}}" class="logo logo-light">
+                 <a href="{{ route('admin.dashboard') }}" class="logo logo-light">
                      <span class="logo-sm">
                          <img src="{{ asset('dashboard/assets/images/logo-sm.png') }}" alt="" height="22">
                      </span>
@@ -12,7 +12,7 @@
                          <img src="{{ asset('dashboard/assets/images/logo-light.png') }}" alt="" height="24">
                      </span>
                  </a>
-                 <a href="{{route('admin.dashboard')}}" class="logo logo-dark">
+                 <a href="{{ route('admin.dashboard') }}" class="logo logo-dark">
                      <span class="logo-sm">
                          <img src="{{ asset('dashboard/assets/images/logo-sm.png') }}" alt="" height="22">
                      </span>
@@ -68,6 +68,13 @@
                      </a>
                  </li>
 
+                 <li>
+                     <a href="{{ route('sales.index') }}"
+                         class="tp-link {{ request()->routeIs('sales') ? 'active' : '' }}">
+                         <i data-feather="clipboard"></i>
+                         <span>Invoice</span>
+                     </a>
+                 </li>
                  <li>
                      <a href="{{ route('admin.logout') }}" class="btn btn-danger btn-sm mt-4">
                          <i class="mdi mdi-location-exit fs-16 align-middle"></i>
