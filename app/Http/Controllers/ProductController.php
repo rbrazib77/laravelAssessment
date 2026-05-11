@@ -22,6 +22,11 @@ class ProductController extends Controller
         return view('admin.products.index', compact('products', 'categories'));
     }
 
+    public function create(){
+          $categories = Category::all();
+        return view('admin.products.create',compact('categories'));
+    }
+
     public function store(Request $request){
         $request->validate([
             'name' => 'required',
